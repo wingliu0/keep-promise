@@ -38,3 +38,4 @@ function keepPromise(orig) {
   });
   return Object.defineProperties(fn, Object.getOwnPropertyDescriptors(orig));
 }
+module.exports = keepPromise
